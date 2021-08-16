@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  min-width: 1497px;
+}
+
+.btn-reset {
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+/*Header*/
+
+.header_conatiner {
+  color: aquamarine;
+}
+
+/*carousel*/
+
+/*Карточки*/
+
+.carts-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 40px;
+}
+
+.cart-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 40px;
+}
+
+.cart-left {
+  position: relative;
+  width: 900px;
+  height: 465px;
+  background: #F4DEEF;
+  border-radius: 15px;
+  margin-right: 44px;
+}
+
+.cart-left .sofa {
+  position: absolute;
+  margin-left: 625px;
+  margin-top: -18px;
+}
+
+.cart-left .cart-product-title {
+  margin-left: 20px;
+  margin-top: 233px;
+}
+
+.cart-left .cart-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  font-size: 96px;
+}
+
+.cart-left .cart-subtitle {
+  margin-top: -110px;
+  margin-left: -5px;
+  font-size: 124px;
+  text-transform: uppercase;
+}
+
+.cart-right {
+  position: relative;
+  width: 900px;
+  height: 465px;
+  background: #F4DEEF;
+  border-radius: 15px;
+}
+
+.cart-right .sofa {
+  position: absolute;
+  margin-left: 625px;
+  margin-top: -18px;
+}
+
+.cart-right .cart-product-title {
+  margin-left: 20px;
+  margin-top: 233px;
+}
+
+.cart-right .cart-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  font-size: 96px;
+}
+
+.cart-right .cart-subtitle {
+  margin-top: -110px;
+  margin-left: -5px;
+  font-size: 124px;
+  text-transform: uppercase;
+}
